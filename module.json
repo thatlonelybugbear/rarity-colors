@@ -14,8 +14,16 @@
       "discord": "Kandashi (He/Him)#6698"
     }
   ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
   "esmodules": [
-    "/scripts/raritycolors.js"
+    "/scripts/raritycolors.js",
+    "/scripts/settings.js"
   ],
   "styles": [
     "/styles/raritycolors.css"
