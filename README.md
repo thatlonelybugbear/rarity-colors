@@ -22,3 +22,5 @@ Give your Inventory and Sidebar a splash of color. Re-colors Actor Inventory Ite
 - <span style="color:lightblue">Spells</span>
 
 - <span style="color:mediumturquoise">Features</span>
+
+![image](https://user-images.githubusercontent.com/1347785/140974008-cc790018-4fb3-410b-a856-9993cfba498b.png)
