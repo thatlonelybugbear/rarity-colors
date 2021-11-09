@@ -13,10 +13,15 @@
     -webkit-text-stroke: 0.5px indigo;
 } 
 
-.item.veryrare .item-name h4 {
+.item.legendary .item-name h4 {
     color : orange !important;
     -webkit-text-stroke: 0.5px chocolate;
 } 
+
+.item.artifact .item-name h4{
+    color : chocolate !important;
+    -webkit-text-stroke: 0.5px rgb(145, 69, 14);
+}
 
 .directory-item.uncommon .entity-name {
     color : green !important;
@@ -31,9 +36,14 @@
     color : purple !important;
     -webkit-text-stroke: 0.5px indigo;
 }
-.directory-item.veryrare .entity-name {
+.directory-item.legendary .entity-name {
     color : orange !important;
     -webkit-text-stroke: 0.5px chocolate;
+}
+
+.directory-item.artifact .entity-name {
+    color : chocolate !important;
+    -webkit-text-stroke: 0.5px rgb(145, 69, 14);
 }
 
 .directory-item.spell .entity-name {
