@@ -1,0 +1,19 @@
+.item.uncommon .item-name h4 {
+    color : green !important;
+    -webkit-text-stroke: 0.5px darkgreen;
+} 
+
+.item.rare .item-name h4 {
+    color : Blue !important;
+    -webkit-text-stroke: 0.5px midnightblue;
+} 
+
+.item.veryrare .item-name h4 {
+    color : purple !important;
+    -webkit-text-stroke: 0.5px indigo;
+} 
+
+.item.legendary .item-name h4 {
+    color : orange !important;
+    -webkit-text-stroke: 0.5px chocolate;
+} 
