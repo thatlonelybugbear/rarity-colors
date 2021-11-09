@@ -9,18 +9,12 @@ Give your Inventory and Sidebar a splash of color. Re-colors Actor Inventory Ite
 
 ## Colors are as follows
 
-<span style="color:green">Uncommon Items</span>
-
-<span style="color:Blue">Rare Items</span>
-
-<span style="color:purple">Very Rare Items</span>
-
-<span style="color:orange">Legendary Items</span>
-
-<span style="color:chocolate">Artifact Items</span>
-
-<span style="color:lightblue">Spells</span>
-
-<span style="color:mediumturquoise">Features</span>
+- Uncommon Items - Green
+- Rare Items - Blue
+- Very Rare Items - Purple
+- Legendary Items - Orange
+- Artifact Items - Brown/Dark Orange
+- Spells - Light blue
+- Features - Terqouise 
 
 ![image](https://user-images.githubusercontent.com/1347785/140974008-cc790018-4fb3-410b-a856-9993cfba498b.png)
