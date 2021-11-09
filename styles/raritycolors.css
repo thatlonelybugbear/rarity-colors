@@ -13,7 +13,35 @@
     -webkit-text-stroke: 0.5px indigo;
 } 
 
-.item.legendary .item-name h4 {
+.item.veryrare .item-name h4 {
     color : orange !important;
     -webkit-text-stroke: 0.5px chocolate;
 } 
+
+.directory-item.uncommon .entity-name {
+    color : green !important;
+    -webkit-text-stroke: 0.5px darkgreen; 
+}
+
+.directory-item.rare .entity-name {
+    color : Blue !important;
+    -webkit-text-stroke: 0.5px midnightblue;
+}
+.directory-item.veryrare .entity-name {
+    color : purple !important;
+    -webkit-text-stroke: 0.5px indigo;
+}
+.directory-item.veryrare .entity-name {
+    color : orange !important;
+    -webkit-text-stroke: 0.5px chocolate;
+}
+
+.directory-item.spell .entity-name {
+    color : lightblue !important;
+    -webkit-text-stroke: 0.5px blue;
+}
+
+.directory-item.feat .entity-name {
+    color : mediumturquoise !important;
+    -webkit-text-stroke: 0.5px rgb(14, 92, 89);
+}
