@@ -1,4 +1,3 @@
-CONFIG.debug.hooks = true
 Hooks.on('renderActorSheet', (actor, html) => {
     if(!game.settings.get("rarity-colors", "rarityFlag")) return
     let items = html.find($(".items-list .item"))
