@@ -1,57 +1,73 @@
+body :root {
+    --REuncommon: #008000;
+    --REuncommonExt : #006400;
+    --RErare: #0000ff;
+    --RErareExt: #191970;
+    --REveryrare : #800080;
+    --REveryrareExt: #4b0082;
+    --RElegendary: #ffa500;
+    --RElegendaryExt: #d2691e;
+    --REartifact: #d2691e;
+    --REartifactExt: #91450e;
+    --REspell: #add8e6;
+    --REspellExt: #0000ff;
+    --REfeat: #48d1cc;
+    --REfeatExt: #0e5c59;
+}
 .item.uncommon .item-name h4 {
-    color : green !important;
-    -webkit-text-stroke: 0.5px darkgreen;
+    color : var(--REuncommon) !important;
+    -webkit-text-stroke: 0.5px var(--REuncommonExt);
 } 
 
 .item.rare .item-name h4 {
-    color : Blue !important;
-    -webkit-text-stroke: 0.5px midnightblue;
+    color : var(--RErare) !important;
+    -webkit-text-stroke: 0.5px var(--RErareExt);
 } 
 
 .item.veryrare .item-name h4 {
-    color : purple !important;
-    -webkit-text-stroke: 0.5px indigo;
+    color : var(--REveryrare) !important;
+    -webkit-text-stroke: 0.5px var(--REveryrareExt);
 } 
 
 .item.legendary .item-name h4 {
-    color : orange !important;
-    -webkit-text-stroke: 0.5px chocolate;
+    color : var(--RElegendary) !important;
+    -webkit-text-stroke: 0.5px var(--RElegendaryExt);
 } 
 
 .item.artifact .item-name h4{
-    color : chocolate !important;
-    -webkit-text-stroke: 0.5px rgb(145, 69, 14);
+    color : var(--REartifact) !important;
+    -webkit-text-stroke: 0.5px var(--REartifactExt);
 }
 
 .directory-item.uncommon .entity-name {
-    color : green !important;
-    -webkit-text-stroke: 0.5px darkgreen; 
+    color : var(--REuncommon) !important;
+    -webkit-text-stroke: 0.5px var(--REuncommonExt);
 }
 
 .directory-item.rare .entity-name {
-    color : Blue !important;
-    -webkit-text-stroke: 0.5px midnightblue;
+    color : var(--RErare) !important;
+    -webkit-text-stroke: 0.5px var(--RErareExt);
 }
 .directory-item.veryrare .entity-name {
-    color : purple !important;
-    -webkit-text-stroke: 0.5px indigo;
+    color : var(--REveryrare) !important;
+    -webkit-text-stroke: 0.5px var(--REveryrareExt);
 }
 .directory-item.legendary .entity-name {
-    color : orange !important;
-    -webkit-text-stroke: 0.5px chocolate;
-}
+    color : var(--RElegendary) !important;
+    -webkit-text-stroke: 0.5px var(--RElegendaryExt);
+} 
 
 .directory-item.artifact .entity-name {
-    color : chocolate !important;
-    -webkit-text-stroke: 0.5px rgb(145, 69, 14);
+    color : var(--REartifact) !important;
+    -webkit-text-stroke: 0.5px var(--REartifactExt);
 }
 
 .directory-item.spell .entity-name {
-    color : lightblue !important;
-    -webkit-text-stroke: 0.5px blue;
+    color : var(--REspell) !important;
+    -webkit-text-stroke: 0.5px var(--REspellExt);
 }
 
 .directory-item.feat .entity-name {
-    color : mediumturquoise !important;
-    -webkit-text-stroke: 0.5px rgb(14, 92, 89);
+    color : var(--REfeat) !important;
+    -webkit-text-stroke: 0.5px var(--REfeatExt);
 }
