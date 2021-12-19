@@ -1,3 +1,4 @@
+CONFIG.debug.hooks = true
 Hooks.on('renderActorSheet', (actor, html) => {
     if(!game.settings.get("rarity-colors", "rarityFlag")) return
     let items = html.find($(".items-list .item"))
@@ -13,9 +14,9 @@ Hooks.on("renderSidebarTab", (bar, html) => {
     let rarityFlag = game.settings.get("rarity-colors", "rarityFlag")
     let spellFlag = game.settings.get("rarity-colors", "spellFlag")
     let featFlag = game.settings.get("rarity-colors", "featFlag")
-    let items = html.find(".directory-item.entity.item")
+    let items = html.find(".directory-item.document.item")
     for(let i of items) {
-        let id = i.outerHTML.match(/data-entity-id="(.*?)"/)
+        let id = i.outerHTML.match(/data-document-id="(.*?)"/)
         if(!id) return
         let item = game.items.get(id[1])
         let rarity = item.data.data.rarity
