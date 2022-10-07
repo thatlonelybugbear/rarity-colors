@@ -4,7 +4,7 @@ Hooks.on('renderActorSheet', (actor, html) => {
     for(let i of items) {
         let id = i.outerHTML.match(/data-item-id="(.*?)"/)
         if(!id) return
-        let rarity = actor.object.items.get(id[1]).data.data?.rarity
+        let rarity = actor.object.items.get(id[1]).getRollData()?.item.rarity
         if(rarity !== "" && rarity !== undefined) i.classList.add(rarity.slugify().toLowerCase())
     }
 });
