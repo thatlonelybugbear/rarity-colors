@@ -19,7 +19,7 @@ Hooks.on("renderSidebarTab", (bar, html) => {
         if(!id) return
         let item = game.items.get(id[1])
         let rarity = item.getRollData().item.rarity
-        let type = item.syste?.type ?? item.data.type
+        let type = item.system?.type ?? item.data.type
         if(rarity !== "" && rarity !== undefined && rarityFlag) i.classList.add(rarity.slugify().toLowerCase())
         if(type === "spell" && spellFlag) i.classList.add("spell")
         if(type === "feat" && featFlag) i.classList.add("feat")
