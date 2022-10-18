@@ -28,7 +28,7 @@
     "/styles/raritycolors.css"
   ],
   "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
+  "manifest": "https://github.com/thatlonelybugbear/rarity-colors/blob/master/module.json",
   "download": "https://github.com/thatlonelybugbear/rarity-colors/archive/refs/heads/master.zip",
   "relationships": {},
   "compatibility": {
