@@ -18,8 +18,8 @@ Hooks.on("renderSidebarTab", (bar, html) => {
         let id = i.outerHTML.match(/data-document-id="(.*?)"/)
         if(!id) return
         let item = game.items.get(id[1])
-        let rarity = item.system?.rarity ?? item.data.data.rarity
-        let type = item.system?.type ?? item.data.type
+        let rarity = item.system?.rarity
+        let type = item.system?.type
         if(rarity !== "" && rarity !== undefined && rarityFlag) i.classList.add(rarity.slugify().toLowerCase())
         if(type === "spell" && spellFlag) i.classList.add("spell")
         if(type === "feat" && featFlag) i.classList.add("feat")
