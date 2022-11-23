@@ -1,12 +1,9 @@
 {
-  "name": "rarity-colors",
+  "id": "rarity-colors",
   "title": "Rarity Colors",
   "description": "Auto colors inventory items based on visibility",
-  "version": "This is auto replaced",
+  "version": "10.0.2",
   "library": "false",
-  "manifestPlusVersion": "1.0.0",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
   "authors": [
     {
       "name": "Kandashi",
@@ -21,14 +18,19 @@
       "path": "lang/en.json"
     }
   ],
-  "esmodules": [
+  "scripts": [
     "/scripts/raritycolors.js",
     "/scripts/settings.js"
   ],
   "styles": [
     "/styles/raritycolors.css"
   ],
-  "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced"
+   "compatibility": {
+		"minimum": 10.286,
+		"verified": 10,
+		"maximum": 10
+	},
+  "url": "https://github.com/thatlonelybugbear/rarity-colors",
+  "manifest": "https://raw.githubusercontent.com/thatlonelybugbear/rarity-colors/master/module.json",
+  "download": "https://github.com/thatlonelybugbear/rarity-colors/archive/refs/heads/master.zip"
 }
